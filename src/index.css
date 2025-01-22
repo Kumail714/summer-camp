@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0; 
+ 
+}
+body{
+  background-color: rgb(239, 237, 237)
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+ES+Deco+Guides&family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+.team:hover .filter{
+ filter:  invert(100%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
+} 
+
+.team:hover .typo{
+  background-color: #ff9600;
+}
