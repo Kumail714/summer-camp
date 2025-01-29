@@ -47,7 +47,7 @@ export default Section4
 
    const ImgAndText = ({imgeee,txt , txt2=''}) =>{
     return (
-      <div className='  team flex flex-col md:gap-7 gap-14 md:w-[calc(20%-20px)] sm:w-[calc(33.333%-20px)]  mb-10 justify-center items-center '>
+      <div className='  team flex flex-col md:gap-7 gap-14 w-full md:w-[calc(20%-20px)] sm:w-[calc(33.333%-20px)]  mb-10 justify-center items-center '>
        <div className=' typo  transition-all duration-300  flex items-center justify-center hover:bg-[#ff9600]  bg-white w-52 h-52 rounded-[100px] '>
         <img className=' filter  h-20 w-20 ' src={imgeee} alt="" />
         
